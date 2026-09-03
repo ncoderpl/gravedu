@@ -1,0 +1,161 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
+    'filename' => 'D:/Projekty/gravEdu/user/data/flex/indexes/pages.json',
+    'modified' => 1788463503,
+    'size' => 2556,
+    'data' => [
+        'version' => '1.5',
+        'timestamp' => 1788463503,
+        'count' => 11,
+        'index' => [
+            '' => [
+                'key' => '',
+                'storage_key' => '',
+                'template' => NULL,
+                'storage_timestamp' => 1788463437,
+                'children' => [
+                    '01.mielsk' => 1788439671,
+                    '02.mysql' => 1788440814,
+                    '03.SSO' => 1788463459,
+                    'home' => 1788463253
+                ],
+                'checksum' => 'c64da2892a93c727b41bb8daf3293a26'
+            ],
+            '01.mielsk' => [
+                'key' => 'mielsk',
+                'storage_key' => '01.mielsk',
+                'template' => 'chapter',
+                'storage_timestamp' => 1788439671,
+                'markdown' => [
+                    '' => [
+                        'chapter' => 1788439631
+                    ]
+                ],
+                'children' => [
+                    '01.1' => 1788439733,
+                    '02.2' => 1788439741,
+                    '03.3' => 1788439747
+                ],
+                'checksum' => '7fbfa59ad52c51a4f74b48b2665d1aef'
+            ],
+            '01.mielsk/01.1' => [
+                'key' => 'mielsk/1',
+                'storage_key' => '01.mielsk/01.1',
+                'template' => 'chapter',
+                'storage_timestamp' => 1788439733,
+                'markdown' => [
+                    '' => [
+                        'chapter' => 1788439733
+                    ]
+                ],
+                'children' => [
+                    '01. podstawy' => 1788439773
+                ],
+                'checksum' => '3651ae51a76a07a4d42f41ddd24e85f9'
+            ],
+            '01.mielsk/01.1/01. podstawy' => [
+                'key' => 'mielsk/1/ podstawy',
+                'storage_key' => '01.mielsk/01.1/01. podstawy',
+                'template' => 'docs',
+                'storage_timestamp' => 1788439773,
+                'markdown' => [
+                    '' => [
+                        'docs' => 1788439773
+                    ]
+                ],
+                'checksum' => '49662e564e4173b616c57c0167010d50'
+            ],
+            '01.mielsk/02.2' => [
+                'key' => 'mielsk/2',
+                'storage_key' => '01.mielsk/02.2',
+                'template' => 'chapter',
+                'storage_timestamp' => 1788439741,
+                'markdown' => [
+                    '' => [
+                        'chapter' => 1788439741
+                    ]
+                ],
+                'checksum' => '17ef279711b89d78f11d4ab57a5b79c7'
+            ],
+            '01.mielsk/03.3' => [
+                'key' => 'mielsk/3',
+                'storage_key' => '01.mielsk/03.3',
+                'template' => 'chapter',
+                'storage_timestamp' => 1788439747,
+                'markdown' => [
+                    '' => [
+                        'chapter' => 1788439747
+                    ]
+                ],
+                'checksum' => 'd907930f8f99bd68c4c5f3f51f2a92d8'
+            ],
+            '02.mysql' => [
+                'key' => 'mysql',
+                'storage_key' => '02.mysql',
+                'template' => 'chapter',
+                'storage_timestamp' => 1788440814,
+                'markdown' => [
+                    '' => [
+                        'chapter' => 1788440814
+                    ]
+                ],
+                'children' => [
+                    '01.podstawy-baz-danych' => 1788440532
+                ],
+                'checksum' => '11be764be5b1014c2045feb791227e01'
+            ],
+            '02.mysql/01.podstawy-baz-danych' => [
+                'key' => 'mysql/podstawy-baz-danych',
+                'storage_key' => '02.mysql/01.podstawy-baz-danych',
+                'template' => 'docs',
+                'storage_timestamp' => 1788463307,
+                'markdown' => [
+                    '' => [
+                        'docs' => 1788463307
+                    ]
+                ],
+                'checksum' => '3001814dc041d8de8f75af0e4412ca75'
+            ],
+            '03.SSO' => [
+                'key' => 'sso',
+                'storage_key' => '03.SSO',
+                'template' => 'chapter',
+                'storage_timestamp' => 1788463459,
+                'markdown' => [
+                    '' => [
+                        'chapter' => 1788438529
+                    ]
+                ],
+                'children' => [
+                    '01.SSO - Wstep' => 1788439118
+                ],
+                'checksum' => 'c2698d2287babd8a637901837c61188a'
+            ],
+            '03.SSO/01.SSO - Wstep' => [
+                'key' => 'sso/sso - wstep',
+                'storage_key' => '03.SSO/01.SSO - Wstep',
+                'template' => 'docs',
+                'storage_timestamp' => 1788439118,
+                'markdown' => [
+                    '' => [
+                        'docs' => 1788438556
+                    ]
+                ],
+                'checksum' => '6f7f3157d66d1b32b283ae489cd7abd8'
+            ],
+            'home' => [
+                'key' => 'home',
+                'storage_key' => 'home',
+                'template' => 'default',
+                'storage_timestamp' => 1788463253,
+                'markdown' => [
+                    '' => [
+                        'default' => 1788463253
+                    ]
+                ],
+                'checksum' => '042fb71aaeeb94309570f518190a27d2'
+            ]
+        ]
+    ]
+];
