@@ -6,6 +6,7 @@ php bin/grav clearcache
 
 # 2. Pobranie zmian z gita
 echo ">>> Pobieranie zmian z repozytorium..."
+git stash
 git pull
 
 # 3. Przywrócenie właściciela frog:nginx
