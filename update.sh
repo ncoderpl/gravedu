@@ -2,7 +2,7 @@
 
 # 1. Czyszczenie cache Grav
 echo ">>> Czyszczenie cache Grav..."
-php bin/grav clear-cache
+php bin/grav clearcache
 
 # 2. Pobranie zmian z gita
 echo ">>> Pobieranie zmian z repozytorium..."
