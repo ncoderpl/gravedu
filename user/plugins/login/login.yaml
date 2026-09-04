@@ -9,7 +9,7 @@ route_after_logout: /
 
 remember_me:
   enabled: true
-  timeout: 604800
+  timeout: 60
   name: grav-rememberme
   secure: false
   httponly: true
