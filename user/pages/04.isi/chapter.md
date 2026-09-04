@@ -2,7 +2,8 @@
 body_classes: title-center title-h1h2
 title: ISI
 access:
-  site.isi: true
+  site:
+    isi: true
 published: true
 visible: true
 login: required
