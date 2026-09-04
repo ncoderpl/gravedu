@@ -1,57 +1,45 @@
 enabled: true
 built_in_css: true
 
-# --- KLUCZOWE OPCJE DLA DZIAŁANIA DOSTĘPU ---
-redirect_to_login: true            # wymusza przekierowanie na /login
-redirect_after_login: '/'          # po zalogowaniu
-redirect_after_logout: '/'         # po wylogowaniu
+redirect_to_login: true
+redirect_after_login: /
+redirect_after_logout: /
 
-route: '/login'                    # strona logowania
+route: /login
 
-dynamic_page_visibility: true      # access ukrywa strony i menu
-parent_acl: true                   # access z frontmattera DZIAŁA
-protect_protected_page_media: true # blokuje dostęp do mediów chronionych stron
+dynamic_page_visibility: true
+parent_acl: true
+protect_protected_page_media: true
 
-# --- GLOBALNE WYMAGANIE LOGOWANIA DLA CAŁEJ WITRYNY ---
 access:
   site:
     login: true
+    isi: false
 
-# --- OPCJE DODATKOWE ---
 session_user_sync: false
-site_host:
 require_trusted_host: false
 
-route_after_login: '/'
-route_after_logout: '/'
-route_activate: '/activate_user'
-route_forgot: '/forgot_password'
-route_reset: '/reset_password'
-route_magic: '/magic_login'
-route_magic_login: '/magic_link'
-route_profile: '/user_profile'
-route_register: '/user_register'
-route_unauthorized: '/user_unauthorized'
+routes:
+  activate: /activate_user
+  forgot: /forgot_password
+  reset: /reset_password
+  magic: /magic_login
+  magic_login: /magic_link
+  profile: /user_profile
+  register: /user_register
+  unauthorized: /user_unauthorized
 
 twofa_enabled: false
 
-rememberme:
+remember_me:
   enabled: true
   timeout: 604800
   name: grav-rememberme
 
-max_pw_resets_count: 2
-max_pw_resets_interval: 60
-max_login_count: 5
-max_login_interval: 10
-max_token_attempts_count: 5
-max_token_attempts_interval: 60
-ipv6_subnet_size: 64
-
 magic_link:
   enabled: false
   ttl: 10
-  redirect_after_request: ''
+  redirect_after_request: /
   max_requests_count: 5
   max_requests_interval: 15
 
@@ -61,13 +49,13 @@ user_registration:
   max_attempts_interval: 60
 
   fields:
-    - 'username'
-    - 'password'
-    - 'email'
-    - 'fullname'
-    - 'title'
-    - 'level'
-    - 'twofa_enabled'
+    - username
+    - password
+    - email
+    - fullname
+    - title
+    - level
+    - twofa_enabled
 
   default_values:
     level: Newbie
@@ -76,8 +64,8 @@ user_registration:
     site:
       login: true
 
-  redirect_after_registration: ''
-  redirect_after_activation: ''
+  redirect_after_registration: /
+  redirect_after_activation: /
 
   options:
     validate_password1_and_password2: true
