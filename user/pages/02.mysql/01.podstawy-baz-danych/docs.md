@@ -5,6 +5,7 @@ taxonomy:
     category: [informatyka, bazy-danych]
     tag: [mysql, sql, rdbms, inf03]
 summary: 'Wprowadzenie do relacyjnych baz danych: struktura tabelaryczna, klucze, normalizacja, mechanizmy składowania oraz podział języka SQL.'
+private: true
 ---
 
 Relacyjny model baz danych opiera się na matematycznej teorii relacji, w której zbiory danych są organizowane w logiczne, dwuwymiarowe struktury tabelaryczne powiązane zdefiniowanymi zależnościami. System zarządzania relacyjną bazą danych (RDBMS), taki jak MySQL, odpowiada za fizyczne składowanie, optymalizację dostępu, transakcyjną spójność oraz modyfikację informacji za pomocą standardowego języka zapytań SQL.
