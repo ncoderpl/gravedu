@@ -1,10 +1,12 @@
 enabled: true
 built_in_css: true
 route: /login
+
 redirect_after_login: /
 redirect_after_logout: /
 route_after_login: /
 route_after_logout: /
+
 remember_me:
   enabled: true
   timeout: 604800
@@ -12,6 +14,7 @@ remember_me:
   secure: false
   httponly: true
   samesite: lax
+
 access:
   site:
     login: true
