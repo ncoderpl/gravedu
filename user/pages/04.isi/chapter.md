@@ -1,4 +1,5 @@
 ---
+
 title: ISI
 body_classes: title-center title-h1h2
 
@@ -6,9 +7,9 @@ access:
   site:
     isi: true
 
-login: true
 published: true
 visible: true
+
 ---
 
 # Strona ISI

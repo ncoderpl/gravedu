@@ -2,9 +2,13 @@ state: enabled
 email: isi@example.com
 fullname: ISI
 language: pl
-hashed_password: "$2y$10$7FWhDO1wiVL2SfS9w1kzZ.tbnE8cUkFYFaasrmoKvP9jB0FQKvgwK"
-
+hashed_password: $2y$10$233Q3NYw4lsGkqxKSHZ99uiOevRzWxX6TCcu6ktTmPxvgcNIk9nHS
 access:
   site:
-    login: true
-    isi: true
+    login: 'true'
+    isi: 'true'
+title: ''
+content_editor: ''
+groups: {  }
+api_tokens_valid_after: 1788547323
+modified: 1788547323
