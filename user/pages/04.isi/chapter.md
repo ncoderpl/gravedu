@@ -6,7 +6,7 @@ access:
     isi: true
 published: true
 visible: true
-login: required
+login: true
 ---
 
 # Say Hello to Grav 2.0!
