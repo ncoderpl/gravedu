@@ -1,3 +1,15 @@
+# v1.0.25
+## 09/03/2026
+
+1. [](#improved)
+    * The `onApiPageUpdated` event now says which template a page had before, when a save changed it, so a plugin keeping anything keyed on the template can clean up after itself [getgrav/grav-plugin-sync#4](https://github.com/getgrav/grav-plugin-sync/issues/4)
+
+# v1.0.24
+## 09/03/2026
+
+1. [](#bugfix)
+    * A package built for another generation of Grav can no longer be installed from the Plugins page. Nothing on this path checked, so a plugin still requiring the Grav 1.7 admin plugin could pull it in alongside Admin 2 whenever the repository happened to serve it [getgrav/grav-premium-issues#618](https://github.com/getgrav/grav-premium-issues/issues/618)
+
 # v1.0.23
 ## 09/02/2026
 

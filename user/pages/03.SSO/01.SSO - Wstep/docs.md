@@ -5,7 +5,7 @@ taxonomy:
     category: [informatyka, systemy-serwerowe]
     tag: [windows-server, linux, wirtualizacja, inf02]
 summary: 'Architektura systemów serwerowych, porównanie Windows Server i Linux, modele licencjonowania, rola wirtualizacji oraz procedury wdrożeniowe.'
-private: true 
+
 ---
 
 Sieciowy system operacyjny (ang. *Network Operating System* – NOS) to wyspecjalizowany system zaprojektowany do jednoczesnej obsługi wielu żądań sieciowych, centralnego zarządzania tożsamością i uprawnieniami, koordynacji współdzielonych zasobów dyskowych oraz ciągłego świadczenia usług w architekturze klient-serwer.

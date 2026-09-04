@@ -5,6 +5,8 @@ content:
     order:
         by: folder
         dir: asc
+
+private: true
 ---
 
 # Spis treści kursu

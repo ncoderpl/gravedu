@@ -1,6 +1,6 @@
 version: '1.2'
-timestamp: 1788503390
-count: 2
+timestamp: 1788513839
+count: 3
 index:
   kamil:
     storage_key: kamil
@@ -9,6 +9,11 @@ index:
     email: kamilzuk@gmail.com
   student:
     storage_key: student
-    storage_timestamp: 1788503318
+    storage_timestamp: 1788513511
     key: student
     email: example@ex.com
+  student_wspa:
+    storage_key: student_wspa
+    storage_timestamp: 1788513839
+    key: student_wspa
+    email: student@wspa.plpl

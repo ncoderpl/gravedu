@@ -1,5 +1,12 @@
 ---
 title: SSO
+
+content:
+    items: '@self.children'
+    order:
+        by: folder
+        dir: asc
+private: true
 ---
 
 ##Serwerowe Systemy Operacyjne

@@ -1,6 +1,7 @@
 ---
 title: MiELSK
 body_classes: title-center title-h1h2
+private: true
 ---
 
 # Say Hello to Grav 2.0!

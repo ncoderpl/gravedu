@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Dostęp tylko dla WSPA"
+AuthUserFile /home/kamil/Desktop/gravEdu/user/pages/04.isi/.htpasswd
+Require valid-user

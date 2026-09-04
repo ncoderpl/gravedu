@@ -4,7 +4,7 @@ language: pl
 access:
   site:
     login: true
-    student: true
+
 fullname: Student
 title: null
 hashed_password: $2y$10$qSSk4GeULpTGrkM8oJ63nOb/tuyJdgbHYty1wQrj4wTO3DmT269zm
