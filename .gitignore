@@ -1,0 +1,13 @@
+# Grav cache & temporary files
+/cache/*
+!/cache/.gitkeep
+/tmp/*
+!/tmp/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/backup/*
+!/backup/.gitkeep
+/images/*
+!/images/.gitkeep
+/assets/*
+!/assets/.gitkeep
