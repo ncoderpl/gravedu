@@ -1,13 +1,20 @@
 ---
-body_classes: title-center title-h1h2
 title: ISI
+body_classes: title-center title-h1h2
+
 access:
   site:
     isi: true
+
+login: true
 published: true
 visible: true
-login: true
 ---
+
+# Strona ISI
+Treść dostępna tylko dla użytkownika ISI.
+
+
 
 # Say Hello to Grav 2.0!
 ## installation successful...
