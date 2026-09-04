@@ -1,0 +1,10 @@
+state: enabled
+email: isi@example.com
+fullname: ISI
+language: pl
+hashed_password: "$2y$10$7FWhDO1wiVL2SfS9w1kzZ.tbnE8cUkFYFaasrmoKvP9jB0FQKvgwK"
+
+access:
+  site:
+    login: true
+    isi: true

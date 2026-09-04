@@ -1,7 +1,11 @@
 ---
-title: ISI
 body_classes: title-center title-h1h2
-
+title: ISI
+access:
+  site.isi: true
+published: true
+visible: true
+login: required
 ---
 
 # Say Hello to Grav 2.0!
